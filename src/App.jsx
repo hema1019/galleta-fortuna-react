@@ -28,7 +28,7 @@ function App() {
 
   document.body.style.backgroundImage= `${ backsImages[index]}`
 
-  const randomImages = Math.floor( Math.random() * ( 3 - 0) + 0 )
+  const randomImages = Math.floor( Math.random() * ( 4 - 0) + 0 )
 
   return (
     <main className='general-container'>
